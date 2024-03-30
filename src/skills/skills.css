@@ -1,0 +1,26 @@
+.skills-page {
+  padding: 3rem 6rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+.skill {
+  padding: 0.5rem 2.25rem;
+  text-align: center;
+  font-style: italic;
+  transition: transform 0.3s ease;
+}
+
+.skill:hover {
+  transform: scale(1.4);
+}
+
+.skill-logo {
+  height: 100px;
+  max-width: 100px;
+}

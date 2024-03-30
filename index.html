@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="src/skills/skills.css" />
+    <link rel="stylesheet" href="src/projects/projects.css" />
+    <link rel="stylesheet" href="src/workExperiences/workExperiences.css" />
+    <link rel="stylesheet" href="src/socialMedia/socialMedia.css" />
+    <script src="index.js" defer></script>
+    <script src="src/skills/skills.js" defer></script>
+    <title>Bikash Das</title>
+  </head>
+  <body>
+    <div id="homePage" class="home-page">
+      <div class="header">
+        <div class="header-item">Home</div>
+        <div class="header-item" onclick="scrollToPage('skillsPage')">
+          Skills
+        </div>
+        <div class="header-item" onclick="scrollToPage('projectsPage')">
+          Projects
+        </div>
+        <div class="header-item" onclick="scrollToPage('workExperiencePage')">
+          Work Experiences
+        </div>
+        <div class="header-item" onclick="scrollToPage('socialMediaPage')">
+          Social Media
+        </div>
+      </div>
+      <div class="intro">
+        <div class="intro-left-section">
+          <div class="name">Bikash Das</div>
+          <div id="introText" class="intro-text"></div>
+          <button class="download-button" id="downloadButton">
+            <img
+              class="download-logo"
+              src="./src/images/download.svg"
+              alt="download-logo"
+            />
+            Download Resume
+          </button>
+        </div>
+        <div>
+          <img
+            class="profile-image"
+            src="./src/images/profile.png"
+            alt="profile-image"
+          />
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-item">
+          Education
+          <div class="footer-item-text">
+            B.Tech,
+            <i>IIT Guwahati (2016-2020)</i>
+          </div>
+        </div>
+        <div class="footer-item">
+          Coding Profiles
+          <div class="coding-profile-logo-container">
+            <a href="https://github.com/bikashdas0108" target="_blank">
+              <img
+                class="coding-profile-logo"
+                src="./src/images/github-logo.png"
+                alt="github-logo"
+              />
+            </a>
+            <a
+              href="https://auth.geeksforgeeks.org/user/bikashdas0108"
+              target="_blank"
+            >
+              <img
+                class="coding-profile-logo"
+                src="./src/images/gfg-logo.png"
+                alt="gfg-logo"
+              />
+            </a>
+            <a href="https://leetcode.com/bikashdas0108/" target="_blank">
+              <img
+                class="coding-profile-logo"
+                src="./src/images/leetcode-logo.png"
+                alt="leetcode-logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="skillsPage" class="skills-page">
+      <div class="section-header">Skills</div>
+      <div id="skillsContainer" class="skills-container"></div>
+    </div>
+    <div id="projectsPage" class="projects-page">
+      <div class="section-header text-color">Projects</div>
+      <div class="projects-container"></div>
+    </div>
+    <div id="workExperiencePage" class="experience-page">
+      <div class="section-header">Work Experience</div>
+      <div class="projects-container"></div>
+    </div>
+    <div id="socialMediaPage" class="social-media-page">
+      <div class="section-header text-color">Get In Touch</div>
+      <div class="social-media-container">
+        <a
+          href="https://www.linkedin.com/in/bikash-das-918104154"
+          target="_blank"
+        >
+          <img
+            class="social-media-logo"
+            src="./src/images/linkedin-logo.svg"
+            alt="linkedin-logo"
+          />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img
+            class="social-media-logo"
+            src="./src/images/fb-logo.svg"
+            alt="fb-logo"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/ssbikash?igsh=OTBpbmJrZGlnaWp1"
+          target="_blank"
+        >
+          <img
+            class="social-media-logo"
+            src="./src/images/insta-logo.svg"
+            alt="insta-logo"
+          />
+        </a>
+        <a href="mailto:bikashdas0108@gmail.com">
+          <img
+            class="social-media-logo"
+            src="./src/images/gmail-logo.svg"
+            alt="gmail-logo"
+          />
+        </a>
+      </div>
+      <p class="madewithlove">Made with ❤️</p>
+    </div>
+  </body>
+</html>
