@@ -133,3 +133,9 @@ body {
 .section-header.text-color {
   color: #ffffff;
 }
+
+.about-section {
+  color: #9c9c9c;
+  padding: 0 5rem 2rem;
+  margin-top: -1rem;
+}

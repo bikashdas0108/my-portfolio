@@ -1,4 +1,45 @@
 .projects-page {
   background-color: #080808;
   padding: 3rem 6rem;
+  color: #ffffff;
+}
+
+.projects-container {
+  display: flex;
+  margin: 4rem 0 3rem;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.project {
+  width: 30%;
+  background-color: #151030;
+  color: #9c9c9c;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.2);
+}
+
+.project-title {
+  color: #ffffff;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.project-image {
+  height: 200px;
+  width: 100%;
+}
+
+.tech-list {
+  margin-top: 0.5rem;
+}
+
+.tech {
+  padding-right: 0.5rem;
 }
