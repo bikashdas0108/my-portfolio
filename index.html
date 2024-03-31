@@ -11,24 +11,19 @@
     <script src="index.js" defer></script>
     <script src="src/skills/skills.js" defer></script>
     <script src="src/projects/projects.js" defer></script>
+    <script src="src/workExperiences/workExperiences.js" defer></script>
     <title>Bikash Das</title>
   </head>
   <body>
-    <div id="homePage" class="home-page">
+    <div id="home" class="home-page">
       <div class="header">
-        <div class="header-item">Home</div>
-        <div class="header-item" onclick="scrollToPage('skillsPage')">
-          Skills
-        </div>
-        <div class="header-item" onclick="scrollToPage('projectsPage')">
-          Projects
-        </div>
-        <div class="header-item" onclick="scrollToPage('workExperiencePage')">
-          Work Experiences
-        </div>
-        <div class="header-item" onclick="scrollToPage('socialMediaPage')">
-          About
-        </div>
+        <a href=""><div class="header-item">Home</div></a>
+        <a href="#skills"><div class="header-item">Skills</div></a>
+        <a href="#projects"><div class="header-item">Projects</div></a>
+        <a href="#workExperience"
+          ><div class="header-item">Work Experiences</div></a
+        >
+        <a href="#about"><div class="header-item">About</div></a>
       </div>
       <div class="intro">
         <div class="intro-left-section">
@@ -90,19 +85,19 @@
         </div>
       </div>
     </div>
-    <div id="skillsPage" class="skills-page">
+    <div id="skills" class="skills-page">
       <div class="section-header">Skills</div>
       <div id="skillsContainer" class="skills-container"></div>
     </div>
-    <div id="projectsPage" class="projects-page">
+    <div id="projects" class="projects-page">
       <div class="section-header text-color">Projects</div>
       <div id="projectsContainer" class="projects-container"></div>
     </div>
-    <div id="workExperiencePage" class="experience-page">
+    <div id="workExperience" class="experience-page">
       <div class="section-header">Work Experience</div>
-      <div class="projects-container"></div>
+      <div id="experienceContainer" class="experience-container"></div>
     </div>
-    <div id="socialMediaPage" class="social-media-page">
+    <div id="about" class="social-media-page">
       <div class="section-header text-color">About Me !!!</div>
       <div class="about-section">
         🚀 Hi there! I'm Bikash Das, a passionate Software Developer, graduated
@@ -149,6 +144,7 @@
         </a>
       </div>
       <p class="madewithlove">Made with ❤️</p>
+      <p class="version">v1.0.0</p>
     </div>
   </body>
 </html>

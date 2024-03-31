@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 body {
@@ -91,6 +97,7 @@ body {
 .description-text-span {
   font-weight: 600;
   font-style: italic;
+  padding-left: 0.5rem;
 }
 
 .download-button {
@@ -138,4 +145,8 @@ body {
   color: #9c9c9c;
   padding: 0 5rem 2rem;
   margin-top: -1rem;
+}
+
+.version {
+  opacity: 0.5;
 }

@@ -1,6 +1,25 @@
 const introTextElement = document.getElementById("introText");
 const downloadButtonElement = document.getElementById("downloadButton");
 
+const getColor = (key) => {
+  switch (key) {
+    case "ReactJs":
+      return "color: green";
+    case "Redux":
+      return "color: blueviolet";
+    case "TypeScript":
+      return "color: orangered";
+    case "JavaScript":
+      return "color: darkturquoise";
+    case "SCSS":
+      return "color: darkcyan";
+    case "Tailwind":
+      return "color:   color: hotpink";
+    default:
+      return "color: chocolate";
+  }
+};
+
 const descriptionList = [
   "I am a <span class='description-text-span'>Software Developer</span>",
   "I am a <span class='description-text-span'>Problem Solver</span>",
@@ -19,11 +38,6 @@ const showInfoText = () => {
 };
 
 showInfoText();
-
-function scrollToPage(id) {
-  const element = document.getElementById(id);
-  element.scrollIntoView({ behavior: "smooth", block: "center" });
-}
 
 function downloadPDF() {
   downloadButtonElement.removeEventListener("click", downloadPDF);

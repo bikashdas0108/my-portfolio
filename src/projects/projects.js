@@ -1,18 +1,5 @@
 const projectsContainerElement = document.getElementById("projectsContainer");
 
-const getColor = (key) => {
-  switch (key) {
-    case "ReactJs":
-      return "color: lightGreen";
-    case "Redux":
-      return "color: yellow";
-    case "TypeScript":
-      return "color: orangered";
-    default:
-      return "color: lightBlue";
-  }
-};
-
 const projects = [
   {
     title: "YouTube Clone",
@@ -62,7 +49,12 @@ const showProjects = () => {
 
     return `<div class='project'>
             <div id="${project.title}-image"></div>
-            <div class='project-title'>${project.title}</div>
+            <div class='project-title'>
+                <span>${project.title}</span>
+                <a href="https://github.com/bikashdas0108" target="_blank">
+                    <img class='github-logo' src="src/images/github-logo.png" alt='github-logo'/>
+                </a>
+            </div>
             <div class='tech-list'>${techList?.join("")}</div>
             <ul>${descriptionList?.join("")}</ul>
         </div>`;

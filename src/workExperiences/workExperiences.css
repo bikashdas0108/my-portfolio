@@ -1,3 +1,46 @@
 .experience-page {
   padding: 3rem 6rem;
 }
+
+.experience-container {
+  padding: 1rem 0;
+}
+
+.experience-wrapper {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem;
+}
+
+.experience-wrapper-left {
+  width: 40%;
+  color: gray;
+}
+
+.company {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: cadetblue;
+  cursor: pointer;
+}
+
+.location,
+.duration {
+  font-style: italic;
+}
+
+.data-wrapper {
+  padding-bottom: 0.75rem;
+}
+
+.role {
+  font-size: 1.25rem;
+  font-weight: 600;
+  opacity: 0.75;
+  padding-bottom: 0.5rem;
+}
+
+.description {
+  opacity: 0.75;
+}
