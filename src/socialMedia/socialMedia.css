@@ -17,3 +17,24 @@
   height: 60px;
   width: 60px;
 }
+
+@media only screen and (max-width: 1199px) {
+  .social-media-page {
+    padding: 3rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .social-media-page {
+    padding: 1.5rem;
+  }
+
+  .social-media-container {
+    margin-top: 0;
+  }
+
+  .social-media-logo {
+    height: 40px;
+    width: 40px;
+  }
+}

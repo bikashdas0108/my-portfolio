@@ -51,3 +51,55 @@
 .tech {
   padding-right: 0.5rem;
 }
+
+@media only screen and (max-width: 1199px) {
+  .projects-page {
+    padding: 3rem 4rem;
+  }
+
+  .project {
+    width: 32%;
+    padding: 1rem 0.75rem;
+    transition: transform 0.3s ease;
+    font-size: 0.75rem;
+  }
+
+  .project-title {
+    padding-top: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .project-image {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .projects-page {
+    padding: 1.5rem;
+  }
+  .tech-list {
+    font-size: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projects-container {
+    margin-top: 1rem;
+    overflow-y: scroll;
+  }
+
+  .projects-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .projects-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .project {
+    min-width: 100%;
+  }
+}

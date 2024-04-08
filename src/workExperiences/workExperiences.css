@@ -44,3 +44,51 @@
 .description {
   opacity: 0.75;
 }
+
+@media only screen and (max-width: 1199px) {
+  .experience-page {
+    padding: 3rem 4rem;
+  }
+
+  .experience-wrapper {
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .experience-wrapper-left {
+    min-width: 30%;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .experience-page {
+    padding: 1.5rem;
+  }
+
+  .experience-wrapper {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+
+  .company {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .location,
+  .duration {
+    font-size: 0.75rem;
+  }
+
+  .role {
+    font-size: 1rem;
+  }
+
+  .data-wrapper {
+    padding-bottom: 0.25rem;
+  }
+  .description {
+    font-size: 0.75rem;
+  }
+}

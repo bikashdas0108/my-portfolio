@@ -10,6 +10,7 @@
 }
 
 .skill {
+  flex: 1 1 0;
   padding: 0.5rem 2.25rem;
   text-align: center;
   font-style: italic;
@@ -23,4 +24,25 @@
 .skill-logo {
   height: 100px;
   max-width: 100px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .skills-page {
+    padding: 3rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .skills-page {
+    padding: 1.5rem;
+  }
+
+  .skill {
+    padding: 0.5rem 0;
+  }
+
+  .skill-logo {
+    height: 75px;
+    max-width: 75px;
+  }
 }
