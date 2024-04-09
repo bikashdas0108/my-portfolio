@@ -78,6 +78,7 @@
   .projects-page {
     padding: 1.5rem;
   }
+
   .tech-list {
     font-size: 0.75rem;
     display: flex;
@@ -100,6 +101,6 @@
   }
 
   .project {
-    min-width: 100%;
+    min-width: 250px;
   }
 }

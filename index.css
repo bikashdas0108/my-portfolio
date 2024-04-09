@@ -3,6 +3,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0;
+}
+
 a {
   text-decoration: inherit;
   color: inherit;
@@ -46,6 +50,10 @@ body {
 
 .header-item:hover {
   color: #ffffff;
+}
+
+.work-link-mobile {
+  display: none;
 }
 
 .footer-item {
@@ -160,7 +168,9 @@ body {
   .intro {
     margin: 64px 0;
     max-width: 100%;
+    gap: 2rem;
   }
+
   .intro-text {
     font-size: 1.5rem;
   }
@@ -183,11 +193,36 @@ body {
   }
 
   .header {
+    padding: 0;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+
+  .header-item {
+    padding: 0;
+  }
+
+  .header-item:hover {
+    color: #9c9c9c;
+  }
+
+  .work-link-mobile {
+    display: block;
+  }
+
+  .work-link {
     display: none;
   }
 
   .intro {
     margin: 0;
+    margin-top: 4rem;
     flex-direction: column-reverse;
     align-items: center;
     max-width: 100%;
