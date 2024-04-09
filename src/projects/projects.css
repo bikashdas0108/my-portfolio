@@ -60,7 +60,6 @@
   .project {
     width: 32%;
     padding: 1rem 0.75rem;
-    transition: transform 0.3s ease;
     font-size: 0.75rem;
   }
 
@@ -74,7 +73,7 @@
   }
 }
 
-@media only screen and (max-width: 899px) {
+@media only screen and (max-width: 799px) {
   .projects-page {
     padding: 1.5rem;
   }
@@ -102,5 +101,10 @@
 
   .project {
     min-width: 250px;
+    transition: none;
+  }
+
+  .project:hover {
+    transform: none;
   }
 }
