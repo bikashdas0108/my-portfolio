@@ -23,7 +23,7 @@ const experiences = [
       {
         role: "Senior Frontend Engineer",
         description:
-          "Implemented features such as a robust search functionality for food items and categories, allowing users to easily find desired items. Implemented features such as a robust search functionality for food items and categories, allowing users to easily find desired items.",
+          "My role as a Senior Engineer involves decision making, planning, coding, performance monitoring, security measuring, mentoring and code reviews.",
       },
     ],
   },
@@ -37,7 +37,7 @@ const experiences = [
       {
         role: "Software Engineer",
         description:
-          "Implemented features such as a robust search functionality for food items and categories, allowing users to easily find desired items. Implemented features such as a robust search functionality for food items and categories, allowing users to easily find desired items.",
+          "My role as an SWE involved writing code for new features, resolving critical bugs, and maintaining the quality of code through PR reviews of my fellow developers.",
       },
     ],
   },
@@ -58,12 +58,12 @@ const experiences = [
       {
         role: "SDE2",
         description:
-          "Implemented features such as a robust search functionality for food items and categories, allowing users to easily find desired items. Implemented features such as a robust search functionality for food items and categories, allowing users to easily find desired items.",
+          "As an SDE2, my primary role was to collaborate with product managers and designers for all new features and designs, create LLDs for the features, write scalable code, and guide my juniors.",
       },
       {
         role: "SDE1",
         description:
-          "Implemented features such as a robust search functionality for food items and categories, allowing users to easily find desired items. Implemented features such as a robust search functionality for food items and categories, allowing users to easily find desired items.",
+          "My role as a SDE involved writing code for new features, resolving critical bugs, writing test cases for the features, and maintaining the quality of code through PR reviews of my fellow developers.",
       },
     ],
   },

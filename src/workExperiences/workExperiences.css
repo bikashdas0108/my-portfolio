@@ -3,6 +3,8 @@
 }
 
 .experience-container {
+  width: fit-content;
+  margin: 0 auto;
   padding: 1rem 0;
 }
 
@@ -14,7 +16,7 @@
 }
 
 .experience-wrapper-left {
-  width: 40%;
+  min-width: 240px;
   color: gray;
 }
 
@@ -48,6 +50,10 @@
 @media only screen and (max-width: 1199px) {
   .experience-page {
     padding: 3rem 4rem;
+  }
+
+  .experience-container {
+    padding: 1rem 0;
   }
 
   .experience-wrapper {
@@ -86,8 +92,9 @@
   }
 
   .data-wrapper {
-    padding-bottom: 0.25rem;
+    padding-bottom: 0.5rem;
   }
+
   .description {
     font-size: 0.75rem;
   }
