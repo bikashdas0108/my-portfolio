@@ -4,14 +4,18 @@ const downloadButtonElement = document.getElementById("downloadButton");
 const getColor = (key) => {
   switch (key) {
     case "ReactJs":
+    case "NodeJs":
       return "color: green";
     case "Redux":
+    case "ExpressJs":
       return "color: blueviolet";
     case "TypeScript":
+    case "MySQL":
       return "color: orangered";
     case "JavaScript":
       return "color: darkturquoise";
     case "SCSS":
+    case "TypeORM":
       return "color: darkcyan";
     case "Tailwind":
       return "color:   color: hotpink";

@@ -46,6 +46,8 @@
 
 .tech-list {
   margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .tech {
@@ -80,8 +82,6 @@
 
   .tech-list {
     font-size: 0.75rem;
-    display: flex;
-    flex-wrap: wrap;
   }
 
   .projects-container {

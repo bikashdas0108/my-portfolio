@@ -18,7 +18,19 @@ const experiences = [
     link: "https://www.virtualinternships.com/",
     duration: "Jan 2024 to present",
     location: "UK (Remote)",
-    techStack: ["TypeScript", "ReactJs", "RTKQ", "Tailwind", "MUI"],
+    techStack: [
+      "TypeScript",
+      "ReactJs",
+      "RTK",
+      "RTKQ",
+      "Tailwind",
+      "MUi",
+      "antd",
+      "NodeJs",
+      "ExpressJs",
+      "TypeORM",
+      "MySQL",
+    ],
     data: [
       {
         role: "Senior Frontend Engineer",
