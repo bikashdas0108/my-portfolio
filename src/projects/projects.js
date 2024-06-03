@@ -32,7 +32,7 @@ const projects = [
       "Offers weather forecasts based on the user's current location or any specified location, allowing users to check weather conditions for multiple regions.",
       "Displays comprehensive weather details including temperature, humidity, wind speed, and atmospheric pressure, providing users with a complete weather overview.",
     ],
-    tech: ["ReactJs", "Redux", "TypeScript"],
+    tech: ["NodeJs", "ExpressJs", "JavaScript"],
   },
 ];
 
