@@ -11,6 +11,7 @@ const projects = [
       "Used Tailwind Css to make highly responsive design.",
       "Implemented lazy loading and code splitting to make the app more optimized.",
     ],
+    github: "https://github.com/bikashdas0108",
     tech: ["ReactJs", "Redux", "TypeScript"],
   },
   {
@@ -21,18 +22,21 @@ const projects = [
       "Implemented features such as a robust search functionality for food items and categories, allowing users to easily find desired items.",
       "Used React useContext hook to solve the problem of prop drilling.",
     ],
+    github: "https://github.com/bikashdas0108",
     tech: ["ReactJs", "Tailwind", "TypeScript"],
   },
   {
-    title: "Weather App",
-    image: "src/images/weather-app.webp",
+    title: "Online Code Editor",
+    image: "src/images/code-editor.png",
     description: [
-      "Developed a web application for showing the weather forecast using NodeJs and ExpressJs.",
-      "Provides real-time weather updates by fetching data from reliable third-party weather APIs, ensuring users always have the latest information.",
-      "Offers weather forecasts based on the user's current location or any specified location, allowing users to check weather conditions for multiple regions.",
-      "Displays comprehensive weather details including temperature, humidity, wind speed, and atmospheric pressure, providing users with a complete weather overview.",
+      "Developed a custom code editor that offers an intuitive and easy-to-navigate interface for writing HTML, CSS, and JavaScript.",
+      "The editor provides real-time preview functionality, allowing users to see the output of their code instantly.",
+      "By combining coding and previewing in one tool, the editor significantly improves the efficiency and productivity of web development tasks.",
+      "The editor includes syntax highlighting and error detection, making it easier to write clean and error-free code.",
     ],
-    tech: ["NodeJs", "ExpressJs", "JavaScript"],
+    github: "https://github.com/bikashdas0108/online-code-editor",
+    url: "https://bikashdas0108.github.io/online-code-editor/",
+    tech: ["ReactJs", "JavaScript", "CSS"],
   },
 ];
 
@@ -48,10 +52,14 @@ const showProjects = () => {
     );
 
     return `<div class='project'>
-            <div id="${project.title}-image"></div>
+            <a href=${project.url} target="_blank">
+              <div id="${project.title}-image"></div>
+            </a>
             <div class='project-title'>
-                <span>${project.title}</span>
-                <a href="https://github.com/bikashdas0108" target="_blank">
+                <a href=${project.url} target="_blank">
+                  <span>${project.title}</span>
+                </a>
+                <a href=${project.github} target="_blank">
                     <img class='github-logo' src="src/images/github-logo.png" alt='github-logo'/>
                 </a>
             </div>
